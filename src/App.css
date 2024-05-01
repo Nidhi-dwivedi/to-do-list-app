@@ -8,22 +8,22 @@ body {
   font-family: monospace;
   font-family: 'Space Mono', monospace;
   margin: 0;
-  /* background: linear-gradient(
+  background: linear-gradient(
     185deg,
     #f7ee77 0%,
     #f1e757 25%,
     #ece03a 50%,
     #4aebe3 75%,
     #00c241 100%
-  ); */
-  background: linear-gradient(
+  );
+  /* background: linear-gradient(
     185deg,
     #f79177 0%,
     #b88571 25%,
     #c68fce 50%,
     #da7ca3 75%,
     #b92a59 100%
-  );
+  ); */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -159,7 +159,7 @@ h1 {
 }
 
 .source:hover {
-  color: #770f37;
+  color: black;
   text-decoration: underline;
   text-underline-offset: 0.4rem;
 }
